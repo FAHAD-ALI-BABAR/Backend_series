@@ -16,7 +16,7 @@
 const express = require('express')
 const app = express()
 app.use(express.json())
-app.use(express.urlencoded({extended:true}))
+app.use(express.urlencoded({extended:true}))//to make datat readable
 // app.use(function(req,res,next){// this is middleware
 //     console.log("middleware executed");
 //     next();//after executing middleware the next command will forward the request to routes
